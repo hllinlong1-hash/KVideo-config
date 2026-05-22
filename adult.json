@@ -72,14 +72,6 @@
     "priority": 1
   },
   {
-    "id": "piaoling",
-    "name": "🎬飘零资源",
-    "baseUrl": "https://p2100.net/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "hongniu",
     "name": "🎬红牛资源",
     "baseUrl": "https://www.hongniuzy2.com/api.php/provide/vod",
@@ -280,14 +272,6 @@
     "priority": 5
   },
   {
-    "id": "hsck",
-    "name": "🔞黄色仓库",
-    "baseUrl": "https://hsckzy.xyz/api.php/provide/vod",
-    "group": "premium",
-    "enabled": true,
-    "priority": 5
-  },
-  {
     "id": "lebo",
     "name": "🔞乐播资源",
     "baseUrl": "https://lbapi9.com/api.php/provide/vod",
@@ -344,14 +328,6 @@
     "priority": 10
   },
   {
-    "id": "wangwang",
-    "name": "🎬旺旺资源",
-    "baseUrl": "https://api.wwzy.tv/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 10
-  },
-  {
     "id": "jinying",
     "name": "🎬金鹰点播",
     "baseUrl": "https://jinyingzy.com/api.php/provide/vod",
@@ -376,28 +352,58 @@
     "priority": 10
   },
   {
+    "id": "wangwang",
+    "name": "🎬旺旺资源",
+    "baseUrl": "https://api.wwzy.tv/api.php/provide/vod",
+    "group": "normal",
+    "enabled": false,
+    "priority": 101,
+    "_comment": "搜索无结果"
+  },
+  {
+    "id": "piaoling",
+    "name": "🎬飘零资源",
+    "baseUrl": "https://p2100.net/api.php/provide/vod",
+    "group": "normal",
+    "enabled": false,
+    "priority": 101,
+    "_comment": "超时/宕机"
+  },
+  {
+    "id": "hsck",
+    "name": "🔞黄色仓库",
+    "baseUrl": "https://hsckzy.xyz/api.php/provide/vod",
+    "group": "premium",
+    "enabled": false,
+    "priority": 101,
+    "_comment": "超时/宕机"
+  },
+  {
     "id": "danaizi",
     "name": "🔞-大奶子-",
     "baseUrl": "https://apidanaizi.com/api.php/provide/vod",
     "group": "premium",
-    "enabled": true,
-    "priority": 10
+    "enabled": false,
+    "priority": 101,
+    "_comment": "搜索无结果"
   },
   {
     "id": "msnii",
     "name": "🔞-美少女-",
     "baseUrl": "https://www.msnii.com/api/json.php",
     "group": "premium",
-    "enabled": true,
-    "priority": 10
+    "enabled": false,
+    "priority": 101,
+    "_comment": "搜索无结果"
   },
   {
     "id": "kxgav",
     "name": "🔞白嫖资源",
     "baseUrl": "https://www.kxgav.com/api/json.php",
     "group": "premium",
-    "enabled": true,
-    "priority": 10
+    "enabled": false,
+    "priority": 101,
+    "_comment": "搜索无结果"
   },
   {
     "id": "jisu",
@@ -405,8 +411,8 @@
     "baseUrl": "https://jszyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 101,
-    "_comment": "超时/宕机"
+    "priority": 102,
+    "_comment": "接口解析错误"
   },
   {
     "id": "xinlang",
@@ -414,7 +420,7 @@
     "baseUrl": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 101,
+    "priority": 102,
     "_comment": "接口解析错误"
   },
   {
@@ -423,7 +429,7 @@
     "baseUrl": "https://wolongzyw.com/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 108,
+    "priority": 109,
     "_comment": "接口解析错误"
   },
   {
