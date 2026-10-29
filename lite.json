@@ -1,13 +1,5 @@
 [
   {
-    "id": "iqiyi",
-    "name": "🎬-爱奇艺-",
-    "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "ikun",
     "name": "🎬iKun资源",
     "baseUrl": "https://ikunzyapi.com/api.php/provide/vod",
@@ -59,14 +51,6 @@
     "id": "feifan",
     "name": "🎬非凡资源",
     "baseUrl": "https://api.ffzyapi.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 1
-  },
-  {
-    "id": "baofeng",
-    "name": "🎬暴风资源",
-    "baseUrl": "https://bfzyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
     "priority": 1
